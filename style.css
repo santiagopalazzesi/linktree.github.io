@@ -1,0 +1,81 @@
+body {
+  background: #00b3db;
+}
+
+#fotocentral {
+  width: 50%;
+  margin-top: 0.5vh;
+  border-radius: 7px;
+  box-shadow: -3px 3px #ffb90d;
+  justify-content: center;
+}
+
+.icons {
+  margin-bottom: 0.5%;
+  margin-left: 1%;
+  width: 40px;
+  height: 40px;
+}
+
+.iconsflex{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#headercentro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.texto {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+}
+
+.lista {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.boton {
+  text-decoration: none;
+  background: #ffb90d;
+  color: black;
+  display: inline-block;
+  margin: 1%;
+  padding: 1.5%;
+  border: solid black 1px;
+  box-shadow: -3px 3px;
+  font-size: 2vh;
+}
+
+.footr {
+  display: inline-block;
+  margin-left: 1%;
+  font-size: 10px;
+}
+
+footer {
+  margin-top: 10vh;
+  border-top: solid black 1px;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
